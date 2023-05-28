@@ -2,8 +2,8 @@ console.log('More About Regular Expression');
 
 let regex = /nitisdfgn/;
 // Lets look into some metacharacter symbols
-regex = /^nitidcn/; // ^ means expression will match if string starts with
-regex = /nitin$/; // $ at the end of the string means "string ends with"
+regex = /^nitidcn/; // ^ means expression will match if string starts with a particular word in the regular expression.
+regex = /nitin$/; // $ at the end of the string means "string ends with" a particular word in the regular expression.
 regex = /n.tin/; //matches any one character
 regex = /n*tin/; //matches any 0 or more characters
 regex = /ni?tini?t/; //? after character means that character is optional
