@@ -1,4 +1,4 @@
-console.log('This is tutorial 47');
+console.log('More About Regular Expression');
 
 let regex = /nitisdfgn/;
 // Lets look into some metacharacter symbols
