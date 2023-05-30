@@ -9,7 +9,7 @@ regex = /n*tin/; //matches any 0 or more characters
 regex = /ni?tini?t/; //? after character means that character is optional
 regex = /n\*tin/
 
-let str = "n*tin means codewith"; // 
+let str = "n*tin means codewith"; 
 
 let result = regex.exec(str);
 console.log("The result from exec is ", result);
