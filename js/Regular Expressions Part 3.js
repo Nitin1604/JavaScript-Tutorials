@@ -9,9 +9,9 @@ regex = /number \d999/; // \d means digit
 regex = /number \d+/;   // \d+ means more than one digit
 regex = /\D999/;        // \D means non digit
 regex = /\D+999/;       // \D+ means more than one non digit
-regex = /\ska number/;  // Match whitespace character
+regex = /\ska number/;  // \s means Match whitespace character
 regex = /\s+ka number/; // \s+ means match one or more than one whitespace characters
-regex = /\Ska number/;  // Match non whitespace character
+regex = /\Ska number/;  // \S means Match non whitespace character
 regex = /\S+ka number/; // Match one or more than one non whitespace character
 regex = /4r5r\b/;  // word boundary
 
