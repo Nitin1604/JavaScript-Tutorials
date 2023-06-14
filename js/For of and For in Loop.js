@@ -4,8 +4,8 @@ let people = ["Harry", "Rohan", "SkillF", "Shubham", "Vikrant"];
 
 
 // **********For in loop*******
-console.log("For in Loop Begins Here")
-console.log("----------------------- ")
+console.log(" ")
+console.log("*********For in Loop Begins Here**********")
 // Traditional for loop:
 for (let index = 0; index < people.length; index++) {
     const element = people[index];
@@ -37,13 +37,13 @@ myString = "JavaScript Code in Visual Studio";
 for (let char in myString){
     console.log(myString[char]);
 }
-
+console.log("*********For in Loop ends Here**********")
 // Quiz: Use traditional for loop to iterate through the same string
 
 
 // **********For of loop***********
-console.log('-----------------------')
-console.log("For of loop starts here")
+console.log('')
+console.log("**********For of loop starts here***********")
 people = ["Harry", "Rohan", "SkillF", "Shubham", "Vikrant"];
 
 for(let name of people){
@@ -53,3 +53,4 @@ for(let name of people){
 for(let name of myString){
     console.log(name);
 }
+console.log("**********For of loop ends here***********")
