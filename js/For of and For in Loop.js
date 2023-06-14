@@ -33,7 +33,7 @@ for (let key in obj){
 
 // 2. ITERATING A STRING
 // We can use for in with strings to loop through all the characters
-myString = "This is my string";
+myString = "JavaScript Code in Visual Studio";
 for (let char in myString){
     console.log(myString[char]);
 }
