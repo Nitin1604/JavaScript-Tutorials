@@ -1,6 +1,6 @@
 console.log("For of and For in Loop in JavaScript")
 
-let people = ["Harry", "Rohan", "SkillF", "Shubham", "Vikrant"];
+let people = ["Nitin", "Sonali", "Harish Khan Ali", "Harry", "Karan"];
 
 
 // **********For in loop*******
@@ -15,7 +15,7 @@ for (let index = 0; index < people.length; index++) {
 
 // 1. ITERATING AN OBJECT
 let obj = {
-    name: "Harry",
+    name: "Nitin",
     language: "JavaScript",
     hobbies: "Android app development"
 }
@@ -44,7 +44,7 @@ console.log("*********For in Loop ends Here**********")
 // **********For of loop***********
 console.log('')
 console.log("**********For of loop starts here***********")
-people = ["Harry", "Rohan", "SkillF", "Shubham", "Vikrant"];
+people = ["Nitin", "Sonali", "Harish Khan Ali", "Harry", "Karan"];
 
 for(let name of people){
     console.log(name);
