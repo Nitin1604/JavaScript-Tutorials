@@ -12,8 +12,12 @@ myMap.set(key3, 'This is an empty function');
 console.log(myMap);
 
 // Getting the values from a Map 
-let value1 = myMap.get(key3);
-console.log(value1);
+let value1 = myMap.get(key1);
+let value2 = myMap.get(key2);
+let value3 = myMap.get(key3);
+console.log("The value of key1 is :",value1);
+console.log("The value of key2 is :",value2);
+console.log("The value of key3 is :",value3);
 
 // Get the size of the map
 console.log(myMap.size);
