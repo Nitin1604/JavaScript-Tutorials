@@ -1,41 +1,42 @@
-console.log('Sets in JavaScript');
+console.log('Set in JavaScript');
 
 // Set stores unique values
-const mySet = new Set();  // Initialize an empty set
-console.log('The set looks like :',mySet);
+const decalaredSet = new Set();  // Initialize an empty set
+console.log('The set looks like :',decalaredSet);
 
 // Adding values to this set
-mySet.add('this');
-mySet.add('My name');
-mySet.add('this');
-mySet.add('that');
-mySet.add(34);
-mySet.add(true);
-mySet.add(false);
-mySet.add('that2');
-console.log('The set looks like this now:',mySet);
+decalaredSet.add('Set');  // Set will add in an empty set
+decalaredSet.add('add in an empty set');
+decalaredSet.add('to understand you clearly');
+decalaredSet.add('set'); // set will also add in an empty set because Set in JS will treat 'Set' and 'set' two different variables
+decalaredSet.add('Set')
+decalaredSet.add(34);
+decalaredSet.add(true);
+decalaredSet.add(false);
+decalaredSet.add('that2');
+console.log('The set looks like this now:',decalaredSet);
 
 // Use a constructor to initialize the set
-let mySet2 = new Set([1, 45, 'this', false, {a:4, b:8}, 'this']);
-console.log('New set:',mySet2);
+let decalaredSet2 = new Set([1, 45, 'this', false, {a:4, b:8}, 'this']);
+console.log('New set:',decalaredSet2);
 
 
-console.log(mySet.size); // Get the size of the set
+console.log("The size of the set is :" ,decalaredSet.size); // Get the size of the set
 
-console.log(mySet.has(346)); // Check whether set has 346 or not
+console.log(decalaredSet.has(346)); // Check whether set has 346 or not
 
-console.log('Before removal', mySet.has('that2'));
-mySet.delete('that2'); // Remove an element from the set
-console.log('After removal', mySet.has('that2'));
+console.log('Before removal', decalaredSet.has('that2'));
+decalaredSet.delete('that2'); // Remove an element from the set
+console.log('After removal', decalaredSet.has('that2'));
 
 
 // Iterating a set
-// for(let item of mySet){
+// for(let item of decalaredSet){
 //     console.log('Item is  :', item );
 // }
 
-mySet.forEach((item)=>{
+decalaredSet.forEach((item)=>{
     console.log('Item is  :', item );
 })
 
-// Quiz: Can you use Array.from(mySet) to convert set into an array?
+// Quiz: Can you use Array.from(decalaredSet) to convert set into an array?
