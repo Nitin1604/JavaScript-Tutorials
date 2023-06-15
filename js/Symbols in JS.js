@@ -14,20 +14,20 @@ console.log(a === b);
 console.log(null === null);
 console.log(undefined === undefined);
 
-const k1 = Symbol('identifier for k1');
-const k2 = Symbol('for k2');
+const Key1 = Symbol('identifier for Key1');
+const Key2 = Symbol('for Key2');
 
 myObj = {};
-myObj[k1] = "Harry";
-myObj[k2] = "Rohan";
+myObj[Key1] = "Harry";
+myObj[Key2] = "Rohan";
 myObj["name"] = "Good boy"
 myObj[4] = "Good int"
 
 
 console.log(myObj);
-console.log(myObj[k1]);
-console.log(myObj[k2]);
-console.log(myObj.k2); // !! ALERT !!: cannot do this to get Rohan because it is same as myObj["k2"]
+console.log(myObj[Key1]);
+console.log(myObj[Key2]);
+console.log(myObj.Key2); // !! ALERT !!: cannot do this to get Rohan because it is same as myObj["Key2"]
 
 
 // Symbols are ignored in for in loop
