@@ -13,7 +13,7 @@ decalaredSet.add('Set')
 decalaredSet.add(34);
 decalaredSet.add(true);
 decalaredSet.add(false);
-decalaredSet.add('that2');
+decalaredSet.add('Unique set');
 console.log('The set looks like this now:',decalaredSet);
 
 // Use a constructor to initialize the set
@@ -25,9 +25,9 @@ console.log("The size of the set is :" ,decalaredSet.size); // Get the size of t
 
 console.log(decalaredSet.has(346)); // Check whether set has 346 or not
 
-console.log('Before when set element was not removed: ', decalaredSet.has('that2'));
-decalaredSet.delete('that2'); // Remove an element from the set
-console.log('After when set element was removed: ', decalaredSet.has('that2'));
+console.log('Before when set element was not removed: ', decalaredSet.has('Unique set'));
+decalaredSet.delete('Unique set'); // Remove an element from the set
+console.log('After when set element was removed: ', decalaredSet.has('Unique set'));
 
 
 // Iterating a set
