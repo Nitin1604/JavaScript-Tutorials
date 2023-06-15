@@ -22,13 +22,13 @@ const fruits = ['Apple', 'Bananas', 'Mangoes'];
 
 // Object Destructuring
 const laptop ={
-    model: "HP Pavilion",
-    age: "23 days",
+    model: "Acer Aspire 5",
+    warranty: "23 days",
     gender: "Male",
     net: 1233,
     start: function (){console.log('started');}
     }
 
-const {model, age, gender, net, start} = laptop;
-console.log(model, age, gender, net, start);
+const {model, warranty, gender, net, start} = laptop;
+console.log(model, warranty, gender, net, start);
 start()
