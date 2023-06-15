@@ -9,10 +9,10 @@ decalaredSet.add('Set');  // Set will add in an empty set
 decalaredSet.add('add in an empty set');
 decalaredSet.add('to understand you clearly');
 decalaredSet.add('set'); // set will also add in an empty set because Set in JS will treat 'Set' and 'set' two different variables
-decalaredSet.add('Set')
-decalaredSet.add(34);
-decalaredSet.add(true);
-decalaredSet.add(false);
+decalaredSet.add('Set') // This will not be added in the set as set will accept only unique value and set is decalred twice.
+decalaredSet.add(34); // Set can accept interger value also.
+decalaredSet.add(true); // Set can accept boolean value also : True and False will be accepted
+decalaredSet.add(false); 
 decalaredSet.add('Unique set');
 console.log('The set looks like this now:',decalaredSet);
 
