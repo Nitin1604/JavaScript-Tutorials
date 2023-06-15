@@ -31,11 +31,17 @@ console.log('After removal', decalaredSet.has('that2'));
 
 
 // Iterating a set
-// for(let item of decalaredSet){
-//     console.log('Item is  :', item );
-// }
+console.log(" ")
+console.log("******Using for of loop******")
+for(let item of decalaredSet){
+    console.log('Item is  :', item );
+}
+console.log("******Using for of loop******")
+console.log(" ")
 
+console.log("******Using for each loop******")
 decalaredSet.forEach((item)=>{
     console.log('Item is  :', item );
 })
+console.log("******Using for each loop******")
 
