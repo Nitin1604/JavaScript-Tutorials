@@ -39,4 +39,3 @@ decalaredSet.forEach((item)=>{
     console.log('Item is  :', item );
 })
 
-// Quiz: Can you use Array.from(decalaredSet) to convert set into an array?
