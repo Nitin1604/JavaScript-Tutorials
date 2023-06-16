@@ -9,11 +9,11 @@ function func1() {
         setTimeout(() => {
             const error = true;
             if (!error) {
-                console.log('Function: Your promise has been resolved')
+                console.log('Function: Your promise has been resolved') // if the promise was rejected
                 resolve();
             }
             else {
-                console.log('Function: Your promise has not been resolved')
+                console.log('Function: Your promise has not been resolved') // if the promises was resolved.
                 reject('Sorry not fulfilled');
             }
         }, 2000);
